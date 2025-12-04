@@ -26,12 +26,16 @@ cd CyanToolKit
 |-----|------|------|------|
 | **SProxy** | `sproxy` | 系统代理管理器 | [详细文档](docs/sproxy.md) |
 | **ShutdownWSL** | `sdwsl` | WSL 快速关闭工具 | [详细文档](docs/shutdownwsl.md) |
+| **GitFastPointPushFast** | `gfpp` | 一键提交GIT | [详细文档](docs/gitfastpointpushfast.md) |
+
 
 ## 文档
 
 - [安装指南](docs/installation.md) - 详细安装和配置说明
 - [SProxy 文档](docs/sproxy.md) - 代理管理器使用指南  
 - [ShutdownWSL 文档](docs/shutdownwsl.md) - WSL 工具使用说明
+- [GitFastPointPushFast 文档](docs/gitfastpointpushfast.md) - 一键提交GIT 工具使用说明
+
 
 ## 项目结构
 
@@ -48,26 +52,6 @@ CyanToolKit/
 - **系统**: Linux / WSL
 - **Shell**: bash 4.0+ / zsh  
 - **依赖**: curl, git (可选)
-
-## 快速示例
-
-```bash
-# 代理管理
-sproxy config 127.0.0.1 7890  # 配置代理
-sproxy on                      # 启用代理
-sproxy status                  # 查看状态
-
-# WSL 管理
-sdwsl  # 关闭 WSL
-```
-
-## 卸载
-
-```bash
-./install.sh  # 选择卸载选项
-# 或手动清理
-rm -rf ~/.local/share/CyanToolKit/
-```
 
 ## 协议
 
